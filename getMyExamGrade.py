@@ -12,10 +12,10 @@ def cleanhtml(raw_html):
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
-usr = 'acc421'
-pwd = 'Neocuber123'
-CHROME_PATH = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe'
-CHROMEDRIVER_PATH = 'C:/Users/MuhamadIqbal/AppData/Local/Programs/Python/Python37/Tools/chromedriver/chromedriver.exe'
+usr = 'XXXX'
+pwd = 'XXXX'
+CHROME_PATH = 'XXXX'
+CHROMEDRIVER_PATH = 'XXXX'
 WINDOW_SIZE = "1920,1080"
 
 chrome_options = Options()  
@@ -45,7 +45,7 @@ readable = "Current time: " + time.strftime("%Y-%m-%d %H:%M:%S", ts)
 print(readable)
 
 
-with open("C:/Users/MuhamadIqbal/Desktop/getMyExamGrade/page_source_new.html", "w") as f:
+with open("XXXX/page_source_new.html", "w") as f:
     f.write(driver.page_source)
 
 driver.quit()      
@@ -74,12 +74,12 @@ if diff != "NEW:":
 
    
    #client credentials are read from TWILIO_ACCOUNT_SID and AUTH_TOKEN
-   client = Client('AC5feaff7948a64e99e3f9b83f0790f465','530a1cda40368fc79e8cdc0355db509b')
+   client = Client('XXXX','XXX')
 
    # this is the Twilio sandbox testing number
-   from_whatsapp_number='whatsapp:+14155238886'
+   from_whatsapp_number='whatsapp:XXX'
    # replace this number with your own WhatsApp Messaging number
-   to_whatsapp_number='whatsapp:+4915736367003'
+   to_whatsapp_number='whatsapp:XXX'
    
    greeting = 'Hey, your grade is online!\n'
    closing = 'check this out for details:\n https://stisys.haw-hamburg.de/'
